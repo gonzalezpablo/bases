@@ -1,0 +1,47 @@
+/* simples reglas de uso  " el punto . se usa para generar una clase y # es usado para crear un id" a continuacion te dejo ejemplos */
+
+
+
+/* de esta forma estoy acceder a las distintas etiquetas por ejemplo aca le pido que me modifique UL*/
+ul{
+	 list-style-type: none;
+   text-align: center;
+}
+/*Aca le pedimos que modifique el LI que esta dentro de el UL entonces se copia la ruta completa*/
+ul li{
+	 display: inline;
+   text-align: center;
+   margin: 0 50px 0 0;
+
+}
+ul li a{
+	color: white;
+}
+/*Representacion de un ID #, el id solo se utiliza una vez*/
+#color{
+	background-color: black;
+	 padding-top: 20px;
+}
+
+/*Las clases son para usarla mas de una vez, lo contrario al ID*/
+.titulo{
+	color: red;
+	border-bottom: 2px solid;
+}
+.nombre{
+	color: green;
+}
+/*Footer es el pie de pagina*/
+footer{
+ background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
+
+footer p{
+	text-align: center;
+}

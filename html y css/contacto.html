@@ -1,0 +1,48 @@
+<!--Explicacion breve.
+la primer pagina si o si debe llamarse index.html, index da como referencia a la home o la pagina que queremos que el browser (buscador) registre como pagina de incio-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Titulo</title>
+	<title>Titulo</title>
+	<!-- lo que vemos a continuacion sirve para que las palabras con asento se puedan ver bien y para que se pueda ver la letra Ñ ya que en el idioma ingles no es utilisada-->
+	<meta charset="utf-8"> 
+	<!--esta es una de las formas de poner css, si revisamos en type ya nos da a entender, el href, al igual que el a href, forma un vinculo, esto enlaza la hoja de estilo-->
+
+	<!--Forma numero uno-->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<!--Forma numero 2-->
+<style type="text/css">
+	
+	/*Aca dentro vas a poner toda la hoja de estilo, como si fuera que lo estamos haciendo dentro de la hoja de estilo de la forma numero uno*/
+</style>
+
+<body>
+<!--esto va a ser una barra de navegacion en donde cada vinculo va a ser un nuevo html, en este caso le vamos a decir al vinculo que cuando lo apretemos nos lleve l html de portfolio, tragajos,contacto, home-->
+<header id="color">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="portfolio.html">Portfolio</a></li>
+		<li><a href="trabajos.html">Trabajos</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+	</ul>
+</header>
+
+<main>
+	<h1 class="titulo">
+		Hola! esto es nuestro <p class="nombre">contacto.html</p>
+	</h1>
+	<h2>No te olvides que es obligatorio, por convencion, utilizar un H1</h2>
+
+</main>
+
+
+<footer>
+	 <p>Todo codigo en este repositorio es de libre uso by Pablo Gonzalez</p>
+</footer>
+
+
+</body>
+</html>
